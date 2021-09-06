@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: piano
+    tables:
+      - name: bestellprozess
+      - name: content_profile
+      - name: visits
+      - name: events
+      - name: session_data
