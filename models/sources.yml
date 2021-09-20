@@ -8,3 +8,4 @@ sources:
       - name: visits
       - name: events
       - name: session_data
+      - name: facebook_data

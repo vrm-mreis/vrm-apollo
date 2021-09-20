@@ -36,13 +36,14 @@ models:
       # Applies to all files under models/example/
       example:
           +enabled: false
-      # Applies to all files under models/every_15_minutes/
+      # Applies to all files under models/dev/
       dev:
           +enabled: true
-          +materialized: view
+          +materialized: incremental
           +schema: dev
-      # Applies to all files under models/every_15_minutes/
-      every_15_minutes:
+      # Applies to all files under models/build
+      build:
           +enabled: true
           +materialized: incremental
+          +schema: build
           
